@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.nv-container{
+    display: flex;
+    justify-content: end;
+}
+.nv-container li{
+    list-style: none;
+    padding: 15px 30px;
+    margin: 20px;
+    color: rgb(236, 236, 236);
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: rgb(17, 131, 202);
+    font-size: 18px;
+}
+.header-container{
+ text-align: right;
+ margin: 180px;
+ padding: 20px;
+}
+.pri-content{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(235, 235, 235);
+}
+.pri-discription{
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+    margin: 20px 0px;
+}
+.pri-button{
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin: 30px 5px;
+    color: #005FAC;
+    border: 0px;
+
+}
+
+/* 2nd part */
+
+.main-container{
+    display: flex;
+    gap:px;
+
+
+}
+.left-arrow{
+    margin: 250px 50px 0 200px;
+    padding: 100px 50px;
+}
+.right-arrow{
+    margin: 650px 250px 100px 0px;
+    padding: 50px 25px;
+}
+.head-text{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.head-discription{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin: 20px 0px;
+}
+.head-li{
+    list-style: none;
+    margin-left: -45px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.middle-h1{
+    text-align: center;
+}
+.row-container{
+    display: flex;
+    justify-content: center;
+}
+.row-container li{
+    list-style: none;
+    margin: 80px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.row-container li p{
+    font-size: 22px;
+    font-weight:400;
+    color: rgb(155, 155, 155);
+}
+
+/* 3rd part */
+
+.bgimg-container{
+    padding: 90px;
+    margin: 250px;
+    text-align: left;
+    background-size: cover;
+    background-image: linear-gradient(90deg,rgb(0, 110, 255), rgba(94, 169, 255, 0.103)), url("images/watch.png");
+}
+.pri-contant ,.text{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+/* last footer */
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+}
+.footer-left{
+    margin: 100px;
+   
+}
+.footer-right{
+    margin: 50px 50px 50px 990px;
+    padding: 50px;
+    text-align: right;
+}
+.input{
+    padding: 20px 30px;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 8px;
+}
